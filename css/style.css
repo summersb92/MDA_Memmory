@@ -1,0 +1,96 @@
+/*Color Pallet
+
+-- Violet Colors --
+4C4482
+706819
+938BCE
+322B62
+1c1740
+
+-- Green Colors --
+599E47
+A2E690
+85CD72
+3A762A
+214E15
+
+-- Red Colors --
+AD4E64
+F298AD
+Df7C93
+812E41
+551725
+
+*/
+body{
+    background-color: #F0F7FF; /* GHOSTWHITE */
+    
+}
+
+/* Overrides for bootstrap */
+.navbar-color{
+    background-color: #061539; /*overriding the bootstrpa color */
+
+}
+.navbar-inverse .navbar-toggle{
+border-color:#669999;    
+}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover{
+        background-color:#669999;
+
+}
+.navbar-inverse .navbar-brand{
+    color: #669999;      
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #669999;    
+    
+}
+
+
+div.container{
+    
+	margin:0px auto;
+    width:480px;
+    
+}
+div#details{
+    width:120px;
+    float:left;
+    display:inline-block;
+    font-weight: bold;
+
+}
+
+
+/* Memory Board Styles */
+
+div#memory_board{
+	background:#DCDCDC;
+	border:#999 1px solid;
+	width:390px;
+	height:390px;
+	padding:10px;
+    display:inline-block;
+}
+div#memory_board > div{
+    background-color: #2e4172;
+	border:#000 1px solid;
+	width:71px;
+	height:71px;
+	float:left;
+	margin:10px;
+	padding:5px;
+	font-size:48px;
+	cursor:pointer;
+	text-align:center;
+}
+
+
+.on {
+    -webkit-transform: rotateX(-180deg);
+}
+
+.off {
+    -webkit-transform: rotateX(0deg);
+}
